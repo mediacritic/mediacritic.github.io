@@ -11,7 +11,7 @@
     <link href="/css/style.css" rel="stylesheet" type="text/css" media="all">
     <link href="/css/fonts.css" rel="stylesheet" type="text/css" media="all">
     <link rel="apple-touch-icon" href="">
-    <link rel="canonical" href="http://mediacritic.github.io/post/welcome/">
+    <link rel="canonical" href="http://localhost:1313/post/welcome/">
 
     
     <link href="/rss.xml" type="application/atom+xml" rel="alternate" title="Rage Pages">    
@@ -104,7 +104,10 @@
 		</div>
       </div>
     </div>
-</body>
+<script>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 
 <script type="text/javascript">
   var _paq = _paq || [];
